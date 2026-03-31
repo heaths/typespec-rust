@@ -37,7 +37,7 @@ pub struct AzureAppConfigurationClientCheckSnapshotResult;
 pub struct AzureAppConfigurationClientCheckSnapshotsResult;
 
 /// Details of a long running operation.
-#[derive(Default, Deserialize, SafeDebug)]
+#[derive(Clone, Default, Deserialize, SafeDebug, Serialize)]
 #[non_exhaustive]
 pub struct AzureAppConfigurationClientCreateSnapshotOperationStatus {
     /// An error, available when the status is `Failed`, describing why the operation
@@ -201,7 +201,7 @@ pub struct LabelListResult {
 }
 
 /// Details of a long running operation.
-#[derive(Default, Deserialize, SafeDebug)]
+#[derive(Clone, Default, Deserialize, SafeDebug, Serialize)]
 #[non_exhaustive]
 pub struct OperationDetails {
     /// An error, available when the status is `Failed`, describing why the operation

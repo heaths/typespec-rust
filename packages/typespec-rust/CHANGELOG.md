@@ -8,6 +8,7 @@
 * Removed spurious `use` statement in `unions.rs`.
 * Fixed incorrect initialization of `Option<T>` fields in explicit implementations of `Default` for client options types.
 * Removed `self` prefix from optional client parameters within the `if let Some(...)` statement.
+* Fixed some missing derive attributes.
 
 ### Other Changes
 
