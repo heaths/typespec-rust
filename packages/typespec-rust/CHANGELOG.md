@@ -1,5 +1,11 @@
 # Release History
 
+## 0.38.2 (2026-04-10)
+
+### Other Changes
+
+* Updated dependencies.
+
 ## 0.38.1 (2026-04-10)
 
 ### Bugs Fixed

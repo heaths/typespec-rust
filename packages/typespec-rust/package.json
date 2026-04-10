@@ -1,6 +1,6 @@
 {
   "name": "@azure-tools/typespec-rust",
-  "version": "0.38.1",
+  "version": "0.38.2",
   "description": "TypeSpec emitter for Rust SDKs",
   "type": "module",
   "packageManager": "pnpm@10.30.3",
@@ -50,38 +50,38 @@
   "readme": "https://github.com/Azure/typespec-rust/blob/main/readme.md",
   "devDependencies": {
     "@azure-tools/azure-http-specs": "0.1.0-alpha.38",
-    "@azure-tools/typespec-azure-core": "~0.66.0",
-    "@azure-tools/typespec-azure-resource-manager": "~0.66.0",
-    "@azure-tools/typespec-client-generator-core": "~0.66.3",
-    "@eslint/js": "^9.39.1",
-    "@types/node": "^20.19.25",
-    "@typespec/compiler": "^1.10.0",
-    "@typespec/http": "^1.10.0",
+    "@azure-tools/typespec-azure-core": "~0.66.1",
+    "@azure-tools/typespec-azure-resource-manager": "~0.66.1",
+    "@azure-tools/typespec-client-generator-core": "~0.66.4",
+    "@eslint/js": "^9.39.4",
+    "@types/node": "^20.19.39",
+    "@typespec/compiler": "^1.11.0",
+    "@typespec/http": "^1.11.0",
     "@typespec/http-specs": "0.1.0-alpha.34",
-    "@typespec/openapi": "^1.10.0",
+    "@typespec/openapi": "^1.11.0",
     "@typespec/rest": "~0.80.0",
     "@typespec/spector": "0.1.0-alpha.24",
     "@typespec/versioning": "~0.80.0",
     "@typespec/xml": "~0.80.0",
-    "@vitest/coverage-v8": "^4.0.10",
-    "@vitest/ui": "^4.0.10",
+    "@vitest/coverage-v8": "^4.1.4",
+    "@vitest/ui": "^4.1.4",
     "c8": "^10.1.3",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.4",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.47.0",
-    "vitest": "^4.0.10"
+    "typescript-eslint": "^8.58.1",
+    "vitest": "^4.1.4"
   },
   "peerDependencies": {
-    "@azure-tools/typespec-client-generator-core": ">=0.66.3 <1.0.0",
-    "@typespec/compiler": "^1.10.0",
-    "@typespec/http": "^1.10.0"
+    "@azure-tools/typespec-client-generator-core": ">=0.66.4 <1.0.0",
+    "@typespec/compiler": "^1.11.0",
+    "@typespec/http": "^1.11.0"
   },
   "dependencies": {
     "@types/turndown": "^5.0.6",
     "linkifyjs": "^4.3.2",
     "query-string": "9.3.1",
     "source-map-support": "0.5.21",
-    "turndown": "^7.2.2"
+    "turndown": "^7.2.4"
   },
   "azure-sdk/emitter-package-json-pinning": [
     "@azure-tools/typespec-azure-core",
