@@ -6,3 +6,4 @@
 mod generated;
 pub use crate::generated::models::*;
 pub use generated::*;
+pub mod nested;
