@@ -1,8 +1,8 @@
 {
   "recommendations": [
-    "editorconfig.editorconfig",
     "GitHub.copilot",
     "rust-lang.rust-analyzer",
+    "ms-vscode.powershell",
     "typespec.typespec-vscodetypespec",
     "streetsidesoftware.code-spell-checker",
     "tamasfe.even-better-toml",

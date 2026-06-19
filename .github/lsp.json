@@ -1,0 +1,25 @@
+{
+  "lspServers": {
+    "rust-analyzer": {
+      "command": "rust-analyzer",
+      "fileExtensions": {
+        ".rs": "rust"
+      },
+      "initializationOptions": {
+        "cargo": {
+          "buildScripts": {
+            "enable": true
+          },
+          "allFeatures": true
+        },
+        "procMacro": {
+          "enable": true
+        },
+        "checkOnSave": true,
+        "check": {
+          "command": "clippy"
+        }
+      }
+    }
+  }
+}

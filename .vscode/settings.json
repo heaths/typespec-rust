@@ -12,6 +12,7 @@
         "LICENSE"
     ],
     "rust-analyzer.cargo.autoreload": false,
+    "rust-analyzer.cargo.features": "all",
     "rust-analyzer.check.workspace": false,
     "rust-analyzer.linkedProjects": [
         "packages/typespec-rust/test/Cargo.toml"
